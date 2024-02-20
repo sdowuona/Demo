@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="Project1Style.css" />
+    <script src="Project1Script.js"></script>
+</head>
+<body>
+    <div class="quizContainer">
+        <h3>Project 1 Quiz</h3>
+        <form id="quizForm"> 
+            
+            <!--Question 1-->
+            <div class="Question">
+                <p>1. What is the capital of Maryland?</p>
+                <ul class="answerOptions">
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q1" value="Richmond"/>Richmond
+                        </label>
+                    </li>
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q1" value="Detriot"/>Detriot
+                        </label>
+                    </li>
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q1" value="Annapolis"/>Annapolis
+                        </label>
+                    </li>
+                </ul>    
+            </div>
+
+            <!--Question2-->
+            <div class="Question">
+                <p>2. How many states are in the U.S.?</p>
+                <ul class="answerOptions">
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q2" value="42"/>42
+                        </label>
+                    </li>
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q2" value="54"/>54
+                        </label>
+                    </li>
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q2" value="51"/>51
+                        </label>
+                    </li>
+                </ul>
+            </div>
+         
+            <!--Question 3-->
+            <div class="Question">
+                <p>3. How many continents are in the world?</p>
+                <ul class="answerOptions">
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q3" value="5"/>5
+                        </label>
+                    </li>
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q3" value="9"/>9
+                        </label>
+                    </li>
+                    <li class="option">
+                        <label>
+                            <input type="radio" name="q3" value="7"/>7
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Submit button-->
+            <button type="button" onclick="submitQuiz()">Submit</button>
+
+            <!--Feedback-->
+            <div class="feedback" id="quizFeedback"></div>
+        </form>
+    </div>
+</body>
+</html>
+

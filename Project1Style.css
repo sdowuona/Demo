@@ -1,0 +1,28 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: 50px;
+}
+.quizContainer {
+    background-color: rgb(183, 255, 0);
+    padding: 50px;
+    margin: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.Question{
+    margin: 50px;
+
+}
+.answerOptions {
+    list-style-type: none;
+    margin: 5px;
+}
+.option {
+    padding: 0px;
+
+}
+
+.feedback {
+
+}
